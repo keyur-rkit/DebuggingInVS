@@ -20,15 +20,15 @@
 
             List<int> numbers = GenerateNumbers();
 
-            foreach (var number in numbers)
+            foreach (int number in numbers)
             {
                 Console.WriteLine($"Processing number: {number}");
                 ProcessNumber(number); // Conditional break points
             }
 
             // Check complex data structures (List of Books)
-            var books = GenerateBooks(); // Normal break point to view data tips    
-            foreach (var book in books)
+            List<Book> books = GenerateBooks(); // Normal break point to view data tips    
+            foreach (Book book in books)
             {
                 Console.WriteLine($"Book Title: {book.Title}, Author: {book.Author}");
             }

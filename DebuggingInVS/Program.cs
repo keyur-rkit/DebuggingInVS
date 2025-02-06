@@ -33,7 +33,7 @@
                 Console.WriteLine($"Book Title: {book.Title}, Author: {book.Author}");
             }
 
-            Console.WriteLine("Debugging is complete!");
+            Console.WriteLine("Debugging is complete!"); // temporary breakpoint
         }
 
         /// <summary>
@@ -43,7 +43,7 @@
         public static List<int> GenerateNumbers()
         {
             List<int> numbers = new List<int>();
-            for (int i = 1; i <= 10; i++) // disabled break point on 3rd statement
+            for (int i = 1; i <= 10; i++) 
             {
                 numbers.Add(i);
             }
